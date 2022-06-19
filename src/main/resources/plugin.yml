@@ -1,0 +1,11 @@
+name: CommandSystem
+version: '${project.version}'
+main: me.nickrest.command.system.CommandSystem
+api-version: 1.15
+authors: [ NickRest ]
+description: A more modern command system for bukkit
+
+commands:
+  test:
+    description: Test command
+    aliases: [ t ]
